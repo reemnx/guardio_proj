@@ -48,6 +48,7 @@ function Home(props) {
     }
 
     function onPagination(diff) {
+        if(currPage === 46 && diff === 1) return
         if (!currPage && diff === (-1)) return
         setCurrPage(currPage => currPage + (diff))
     }
@@ -75,13 +76,13 @@ function Home(props) {
                 style={{backgroundImage:`${(theme === 'dark')? `url(${galaxy})` : `url(${rainbow})` }`}}>
 
                     {breaches.map((breach, idx) => {
-                        return <div className={`breach-item flex align-center space-between ${theme === 'light'? 'light' : ''}`}
+                        return <div className={`breach-item flex align-center ${theme === 'light'? 'light' : ''}`}
                         
                             key={idx} onMouseEnter={() => onHover(idx)} onMouseLeave={onLeave} onClick={() => onBreach(breach)}>
                             <img style={{ width: "30px" }} className="breach-logo" src={breach.LogoPath} />
                             <h5>{breach.Title}</h5>
                             <p>{breach.BreachDate}</p>
-                            {(hoveredDiv === idx) && <span className="right-arrow spin-entrance" />}
+                            {(hoveredDiv === idx) && <span style={{marginLeft:"auto"}} className={`spin-entrance ${theme === 'dark'? 'right-arrow' : 'right-arrow-black'}`}/>}
                         </div>
                     })}
                     <div className="breach-item flex align-center space-between">

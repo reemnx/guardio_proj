@@ -1,7 +1,7 @@
 .home-container {
     width: 100%;
     height: 100%;
-    padding: 15px;
+    // padding: 15px;
 
     & h4 {
         font-size: 28px;
@@ -9,7 +9,7 @@
     }
 
     .toggle-container{
-        margin: 15px auto;
+        margin: 10px auto;
         width: 80px;
         height: 25px;
         border-radius: 30px;
@@ -45,11 +45,11 @@
             margin-bottom: 15px;
             border-radius: 5px;
             & img {
-                margin-right: 10px;
+                margin-right: 20px;
             }
 
             & h5 {
-                margin-right: 10px;
+                margin-right: 20px;
                 color: #04bdda;
             }
 
@@ -71,9 +71,9 @@
 
 @keyframes color-change-2x {
     0% {
-        background: #19dcea;
+        background: #8c19ea;
     }
     100% {
-        background: #2c64ff;
+        background: #a02cff;
     }
 }
