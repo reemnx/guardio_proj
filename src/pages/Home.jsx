@@ -89,7 +89,7 @@ function Home(props) {
                         <h3 className="fs18" style={{ marginBottom: "0px", letterSpacing: "1px" }}>Current Page </h3>
                         <div className="flex align-center">
                             {currPage > 0 && <span style={{ transform: "rotate(180deg)" }} className="pagination-next" onClick={() => onPagination(-1)} />}
-                            <h3 className="fs18" style={{ color: "#04bdda", margin: " 0px 5px" }}>{currPage}</h3>
+                            <h3 className="fs18" style={{ color: "#04bdda", margin: " 0px 5px" }}>{currPage + 1}</h3>
                             <span className="pagination-next" onClick={() => onPagination(+1)} />
                         </div>
                     </div>
