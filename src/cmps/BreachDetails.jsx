@@ -32,7 +32,7 @@ function BreachDetails(props) {
         <div className="breach-details-container flex column align-center">
             <div className="flex align-center">
                 <h4 style={{ marginBottom: "0px", marginRight: " 20px" }}>Details for breach: <span style={{ color: "#04bdda" }}>{currBreach.Name}</span></h4>
-                <button className="backBtn" onClick={() => props.history.push('/')}>Back to List</button>
+                <button className="backBtn" onClick={() => props.history.goBack()}>Back to List</button>
             </div>
             <div className="breach-data-container flex align-center space-between">
 
