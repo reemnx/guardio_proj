@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Mulli-medium';
+    font-size: 16px;
+    // color: $clr2;
+    line-height: normal; /* ? */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    /* width */
+    ::-webkit-scrollbar,
+    &::-webkit-scrollbar {
+        width: 3px;
+        height: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb,
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover,
+    &::-webkit-scrollbar-thumb:hover {
+        background: #777;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Livvic-bold';
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+a,
+button {
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #04bdda !important;
+}
+
+input {
+    outline: none;
+}
