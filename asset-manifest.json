@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/guardio_proj/static/css/main.08b9c905.chunk.css",
-    "main.js": "/guardio_proj/static/js/main.94b65eb2.chunk.js",
-    "main.js.map": "/guardio_proj/static/js/main.94b65eb2.chunk.js.map",
+    "main.js": "/guardio_proj/static/js/main.177ed9b0.chunk.js",
+    "main.js.map": "/guardio_proj/static/js/main.177ed9b0.chunk.js.map",
     "runtime-main.js": "/guardio_proj/static/js/runtime-main.f58f7700.js",
     "runtime-main.js.map": "/guardio_proj/static/js/runtime-main.f58f7700.js.map",
     "static/js/2.8c31248d.chunk.js": "/guardio_proj/static/js/2.8c31248d.chunk.js",
     "static/js/2.8c31248d.chunk.js.map": "/guardio_proj/static/js/2.8c31248d.chunk.js.map",
     "index.html": "/guardio_proj/index.html",
-    "precache-manifest.5ef1fbecaa83643d36c2539067f4f418.js": "/guardio_proj/precache-manifest.5ef1fbecaa83643d36c2539067f4f418.js",
+    "precache-manifest.25f91864c7279e4a4283dd4ec3441e17.js": "/guardio_proj/precache-manifest.25f91864c7279e4a4283dd4ec3441e17.js",
     "service-worker.js": "/guardio_proj/service-worker.js",
     "static/css/main.08b9c905.chunk.css.map": "/guardio_proj/static/css/main.08b9c905.chunk.css.map",
     "static/js/2.8c31248d.chunk.js.LICENSE.txt": "/guardio_proj/static/js/2.8c31248d.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f58f7700.js",
     "static/js/2.8c31248d.chunk.js",
     "static/css/main.08b9c905.chunk.css",
-    "static/js/main.94b65eb2.chunk.js"
+    "static/js/main.177ed9b0.chunk.js"
   ]
 }
