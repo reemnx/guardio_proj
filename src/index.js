@@ -4,7 +4,7 @@ import './styles/global.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { store } from './store/store.js';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 
