@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff0a6e715b0d60777aa92bcd7a85de38",
+    "revision": "c48fdc13eecfeb4db451c9793f322e5d",
     "url": "/guardio_proj/index.html"
   },
   {
-    "revision": "1872598e789c7130d52e",
-    "url": "/guardio_proj/static/css/main.08b9c905.chunk.css"
+    "revision": "fe87be5f83a2ababdd4b",
+    "url": "/guardio_proj/static/css/main.d62b33b5.chunk.css"
   },
   {
-    "revision": "cb6eec3d8066f10f451a",
-    "url": "/guardio_proj/static/js/2.8c31248d.chunk.js"
+    "revision": "16f76dd8a49fa10ee652",
+    "url": "/guardio_proj/static/js/2.de53eb2e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/guardio_proj/static/js/2.8c31248d.chunk.js.LICENSE.txt"
+    "url": "/guardio_proj/static/js/2.de53eb2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1872598e789c7130d52e",
-    "url": "/guardio_proj/static/js/main.04fa8c44.chunk.js"
+    "revision": "fe87be5f83a2ababdd4b",
+    "url": "/guardio_proj/static/js/main.f71902be.chunk.js"
   },
   {
     "revision": "d0ac72a8dcba1db82306",
