@@ -45,7 +45,7 @@ function BreachDetails(props) {
                 </div>
 
                 <div className="brech-item">
-                    <h5>AddedDate: <span className="content">{currBreach.AddedDate}</span></h5>
+                    <h5>AddedDate: <span className="content">{moment(currBreach.AddedDate).format("YYYY-MM-DD")}</span></h5>
                 </div>
 
                 <div className="brech-item">
@@ -85,7 +85,7 @@ function BreachDetails(props) {
                 </div>
 
                 <div className="brech-item">
-                    <h5>ModifiedDate: <span className="content">{currBreach.ModifiedDate}</span> </h5>
+                    <h5>ModifiedDate: <span className="content">{moment(currBreach.ModifiedDate).format("YYYY-MM-DD")}</span> </h5>
                 </div>
 
                 <div className="brech-item" style={{ marginRight: "auto" }}>
